@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Arit"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-02 07:48:03 PM"/>
+        <attribute name="created" value="QXJpdDtBUklUOzI1NjItMDgtMDI7MDI6NTg6MDQgUE07MTk5Mg=="/>
+        <attribute name="edited" value="QXJpdDtBUklUOzI1NjItMDgtMDI7MDc6NDg6MDMgUE07MTsyMTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="username" type="String" array="False" size=""/>
+            <input variable="Username"/>
+            <declare name="Password" type="String" array="False" size=""/>
+            <input variable="password"/>
+            <declare name="number1" type="Integer" array="False" size=""/>
+            <declare name="number2" type="Integer" array="False" size=""/>
+            <declare name="number3" type="Integer" array="False" size=""/>
+            <declare name="total1" type="Real" array="False" size=""/>
+            <declare name="total2" type="Real" array="False" size=""/>
+            <declare name="total3" type="Real" array="False" size=""/>
+            <declare name="Alltotal" type="Real" array="False" size=""/>
+            <if expression="username==&quot;Thitima&quot;">
+                <then>
+                    <if expression="password==&quot;122543&quot;">
+                        <then>
+                            <output expression="&quot;Welcome to Thitima Restaurant&quot;" newline="True"/>
+                            <output expression="&quot;What do you want to bay something?&quot;" newline="True"/>
+                            <output expression="&quot;This is all Menu in Thitima Restaurant&quot;" newline="True"/>
+                            <output expression="&quot;-----------------------------&quot;" newline="True"/>
+                            <output expression="&quot;1.French fries 39 THB&quot;" newline="True"/>
+                            <output expression="&quot;2.Spaghetti 69 THB&quot;" newline="True"/>
+                            <output expression="&quot;3.Steak 59 THB&quot;" newline="True"/>
+                            <output expression="&quot;4.Fried chicken 49 THB&quot;" newline="True"/>
+                            <output expression="&quot;5.Noodle 30 THB&quot;" newline="True"/>
+                            <output expression="&quot;----------------------------&quot;" newline="True"/>
+                            <declare name="product" type="Integer" array="False" size=""/>
+                            <input variable="product"/>
+                            <declare name="rates1" type="Integer" array="False" size=""/>
+                            <if expression="product=1">
+                                <then>
+                                    <output expression="&quot;rates1=39&quot;" newline="True"/>
+                                    <assign variable="rates1" expression="39"/>
+                                    <input variable="number1"/>
+                                    <assign variable="total1" expression="(rates1*number1)"/>
+                                    <output expression="total1" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="product=2">
+                                        <then>
+                                            <output expression="&quot;rates1=69&quot;" newline="True"/>
+                                            <assign variable="rates1" expression="69"/>
+                                            <input variable="number1"/>
+                                            <assign variable="total1" expression="(rates1*number1)"/>
+                                            <output expression="total1" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="product=3">
+                                                <then>
+                                                    <output expression="&quot;rates1=59&quot;" newline="True"/>
+                                                    <assign variable="rates1" expression="59"/>
+                                                    <input variable="number1"/>
+                                                    <assign variable="total1" expression="(rates1*number1)"/>
+                                                    <output expression="total1" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="product=4">
+                                                        <then>
+                                                            <output expression="&quot;rates1=49&quot;" newline="True"/>
+                                                            <assign variable="rates1" expression="49"/>
+                                                            <input variable="number1"/>
+                                                            <assign variable="total1" expression="(rates1*number1)"/>
+                                                            <output expression="total1" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="product=5">
+                                                                <then>
+                                                                    <output expression="&quot;rates1=30&quot;" newline="True"/>
+                                                                    <assign variable="rates1" expression="30"/>
+                                                                    <input variable="number1"/>
+                                                                    <assign variable="total1" expression="(rates1*number1)"/>
+                                                                    <output expression="total1" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                            <input variable="product"/>
+                            <declare name="rates2" type="Integer" array="False" size=""/>
+                            <if expression="product=1">
+                                <then>
+                                    <output expression="&quot;rates=39&quot;" newline="True"/>
+                                    <assign variable="rates2" expression="39"/>
+                                    <input variable="number2"/>
+                                    <assign variable="total2" expression="(rates2*number2)"/>
+                                    <output expression="total2" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="product=2">
+                                        <then>
+                                            <output expression="&quot;rates=69&quot;" newline="True"/>
+                                            <assign variable="rates2" expression="69"/>
+                                            <input variable="number2"/>
+                                            <assign variable="total2" expression="(rates2*number2)"/>
+                                            <output expression="total2" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="product=3">
+                                                <then>
+                                                    <output expression="&quot;rates=59&quot;" newline="True"/>
+                                                    <assign variable="rates2" expression="59"/>
+                                                    <input variable="number2"/>
+                                                    <assign variable="total2" expression="(rates2*number2)"/>
+                                                    <output expression="total2" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="product=4">
+                                                        <then>
+                                                            <output expression="&quot;rates=49&quot;" newline="True"/>
+                                                            <assign variable="rates2" expression="49"/>
+                                                            <input variable="number2"/>
+                                                            <assign variable="total2" expression="(rates2*number2)"/>
+                                                            <output expression="total2" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="product=5">
+                                                                <then>
+                                                                    <output expression="&quot;rates=30&quot;" newline="True"/>
+                                                                    <assign variable="rates2" expression="30"/>
+                                                                    <input variable="number2"/>
+                                                                    <assign variable="total2" expression="(rates2*number2)"/>
+                                                                    <output expression="total2" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                            <input variable="product"/>
+                            <declare name="rates3" type="Integer" array="False" size=""/>
+                            <if expression="product=1">
+                                <then>
+                                    <output expression="&quot;rates=39&quot;" newline="True"/>
+                                    <assign variable="rates3" expression="39"/>
+                                    <input variable="number3"/>
+                                    <assign variable="total3" expression="(rates3*number3)"/>
+                                    <output expression="total3" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="product=2">
+                                        <then>
+                                            <output expression="&quot;rates=69&quot;" newline="True"/>
+                                            <assign variable="rates3" expression="69"/>
+                                            <input variable="number3"/>
+                                            <assign variable="total3" expression="(rates3*number3)"/>
+                                            <output expression="total3" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="product=3">
+                                                <then>
+                                                    <output expression="&quot;rates=59&quot;" newline="True"/>
+                                                    <assign variable="rates3" expression="59"/>
+                                                    <input variable="number3"/>
+                                                    <assign variable="total3" expression="(rates3*number3)"/>
+                                                    <output expression="total3" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="product=4">
+                                                        <then>
+                                                            <output expression="&quot;rates=49&quot;" newline="True"/>
+                                                            <assign variable="rates3" expression="49"/>
+                                                            <input variable="number3"/>
+                                                            <assign variable="total3" expression="(rates3*number3)"/>
+                                                            <output expression="total3" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="product=5">
+                                                                <then>
+                                                                    <output expression="&quot;rates=30&quot;" newline="True"/>
+                                                                    <assign variable="rates3" expression="30"/>
+                                                                    <input variable="number3"/>
+                                                                    <assign variable="total3" expression="(rates3*number3)"/>
+                                                                    <output expression="total3" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                            <output expression="&quot;alltotal&quot;" newline="True"/>
+                            <assign variable="alltotal" expression="total1+total2+total3"/>
+                            <output expression="alltotal" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="Error" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Error&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
